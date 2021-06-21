@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import DemoComponent from './Components/DemoComponent';
+// import DemoFComponent from './Components/DemoFComponent';
+// import BaiTapComponent from './Components/BaiTapComponent/BaiTapComponent';
+// import BaiTapLayoutBootstrap from './Components/BaiTapLayoutBootstrap/BaiTapLayoutBootstrap';
 
-function App() {
+// import DataBinding from './DataBinding/DataBinding';
+// import DataBindingReactFunc from './DataBinding/DataBindingReactFunc';
+// import HandleEvent from './HandleEvent/HandleEvent';
+// import RenderWithState from './RenderWithState/RenderWithState';
+// import BaiTapChonXe from './RenderWithState/BaiTapChonXe';
+import RenderWithMap from './RenderWithMap/RenderWithMap';
+function App() { //Component gốc của ứng dụng
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        {/* <BaiTapComponent /> */}
+        {/* <BaiTapLayoutBootstrap /> */}
+        {/* <DataBinding />
+        <DataBindingReactFunc /> */}
+        {/* <HandleEvent /> */}
+        {/* <RenderWithState /> */}
+
+        {/* <BaiTapChonXe /> */}
+        <RenderWithMap />
     </div>
   );
 }
