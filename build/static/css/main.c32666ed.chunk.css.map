@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,6BACI,YACJ","file":"main.c32666ed.chunk.css","sourcesContent":[".navigation,.content,.footer {\n    height: 500px;\n}   "]}

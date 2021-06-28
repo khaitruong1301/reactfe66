@@ -18,6 +18,11 @@ export default class SanPham extends Component {
                         this.props.xemChiTiet(sp);
                        
                     }} className="btn btn-success">Xem chi tiết</button>
+
+
+                    <button onClick={()=>{
+                        this.props.themGioHang(sp)
+                    }} className="ml-2 btn btn-danger">Thêm giỏ hàng</button>
                 </div>
             </div>
         )
