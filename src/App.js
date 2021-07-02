@@ -11,9 +11,10 @@ import './App.css';
 // import RenderWithState from './RenderWithState/RenderWithState';
 // import BaiTapChonXe from './RenderWithState/BaiTapChonXe';
 // import RenderWithMap from './RenderWithMap/RenderWithMap';
-import DemoProps from './Props/DemoProps';
-import ProductList from './Props/ProductList';
-import DemoXemChiTiet from './Props/DemoXemChiTiet/DemoXemChiTiet';
+// import DemoProps from './Props/DemoProps';
+// import ProductList from './Props/ProductList';
+// import DemoXemChiTiet from './Props/DemoXemChiTiet/DemoXemChiTiet';
+import DanhSachSanPhamRedux from './DemoRedux/BTGioHangRedux/DanhSachSanPhamRedux';
 function App() { //Component gốc của ứng dụng
   const arrProduct = [
     {
@@ -151,7 +152,8 @@ function App() { //Component gốc của ứng dụng
         {/* <DemoProps /> */}
         {/* <ProductList arrProduct={arrProduct} /> */}
 
-        <DemoXemChiTiet />
+        {/* <DemoXemChiTiet /> */}
+        <DanhSachSanPhamRedux />
     </div>
   );
 }
